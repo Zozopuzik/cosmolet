@@ -1,9 +1,14 @@
+*{
+	font-family: 'Press Start 2P', cursive;
+	margin: 0;
+	padding: 0;	
+}
 .game-holder {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: -webkit-linear-gradient(#e4e0ba, #f7d9aa);
-	background: linear-gradient(#e4e0ba, #f7d9aa);
+	background: -webkit-linear-gradient(#21025B, #3E09EA);
+	background: linear-gradient(#21025B, #3E09EA);
 }
 
 .world {
@@ -15,7 +20,7 @@
 
 .header {
 	position: absolute;
-	top: 8vh;
+	top: 10px;
 	left: 0;
 	width: 100%;
 	text-align: center;
@@ -23,8 +28,7 @@
 }
 
 .header h1 {
-	font-family: 'Playfair Display';
-	font-size: 4.5em;
+	font-size: 3em;
 	line-height: 1;
 	margin: 0;
 	letter-spacing: -0.025em;
@@ -32,7 +36,7 @@
 }
 
 .header h1 span {
-	font-size: 0.2em;
+	font-size: 0.1em;
 	font-style: italic;
 	display: block;
 	margin: 0 0 -1.5em -7em;
@@ -40,7 +44,7 @@
 }
 
 .header h2 {
-	font-size: 0.585em;
+	font-size: 0.3em;
 	margin: 0.25em 0;
 	white-space: nowrap;
 	text-indent: 1em;
@@ -71,7 +75,7 @@
 .score__label {
 	font-size: 9px;
 	position: relative;
-	margin: 0 0 0.5em 0;
+	margin: 0 0 1.5em 0;
 	text-align: center;
 	letter-spacing: 3px;
 	text-transform: uppercase;
@@ -79,7 +83,7 @@
 }
 
 .score__value {
-	font-family: 'Playfair Display';
+	font-family: 'Press Start 2P', cursive;
 	font-weight: bold;
 	color: #d1b790;
 }
